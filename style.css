@@ -1,0 +1,29 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri;
+    color: white;
+    background-image: url(assets/back\ ground.jpg);
+}
+
+.head{
+  
+      display: inline-block;
+    
+}
+
+.img{
+    height: 200px;
+    width: 200px;
+    position: inherit;
+    margin-left: 20px;
+    margin-top: 20;
+    display: inline-block;
+    
+}
+h1{
+    font-size: 80px
+  
+    
+
+}
