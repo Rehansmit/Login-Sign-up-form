@@ -39,7 +39,7 @@ position: absolute;
     height: 300px;
     width:500px ;
     border-radius: 25px;
-    border: 6px solid blanchedalmond;
+    border: 10px solid white;
     padding: 20px;
     margin-left: 30%;
 
@@ -100,4 +100,10 @@ button{
 p{
     margin-left: 100px;
     text-align:justify
+}
+.head{
+    height: 200px;
+    background-color: rgba(54, 50, 50, .5);
+    background-image: url(assets/high-tech-view-futuristic-earth_23-2151100324.jpg);
+    background-size: cover;
 }
