@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Form</title>
     <link rel="stylesheet" href="bootsrip.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="signup.css">
 </head>
 <body>
 
@@ -21,7 +21,7 @@
   <div class="container justify-content-center mt-2 ">
     <div class="row">
       <div class="col-md-12">
-         <h3>Login & Sign up Form</h3>
+         <h3>New User Sign'up here </h3>
       </div>
     </div>
   </div>
@@ -35,22 +35,41 @@
   <div class="mb-3 row mt-5">
     <label for="inputname" class="col-sm-2 col-form-label">U.Name</label>
     <div class="col-sm-10">
-      <input type="text" class="form-control w-200" id="input_user" placeholder="Enter User Name">
+      <input type="text" class="form-control w-200" id="input_user_sp" placeholder="Enter User Name">
     </div>
   </div>
 
   <div class="mb-3 row mt-3">
     <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
     <div class="col-sm-10">
-      <input type="password" class="form-control w-200" id="input_Password" placeholder="Enter Password">
+      <input type="password" class="form-control w-200" id="input_Password_sp" placeholder="Enter Password">
     </div>
   
+
+    <div class="mb-3 row mt-3">
+        <label for="inputPassword" class="col-sm-2 col-form-label">Confirm Password</label>
+        <div class="col-sm-10">
+          <input type="password" class="form-control w-200" id="input_re-Password" placeholder="Re-enter Password">
+        </div>
+    
+  
+    <div class="mb-3 row mt-3">
+        <label for="inputPassword" class="col-sm-2 col-form-label">Cell No.</label>
+        <div class="col-sm-10">
+          <input type="number" class="form-control w-200" id="input_cell" placeholder="Enter cell No.">
+        </div>
+      
+
+
+
+
+
+
     <div class="mb-3 row mt-5">
       <div class="col-sm-10 justify-content-center d-flex">
-        <button onclick="loginForm()" type="button" class="btn btn_submit btn-primary">Login</button>
+        <button onclick="signupForm()" type="button" class="btn btn_submit btn-primary">Submit</button>
       
-        <button onclick="singupForm()" type="button" class="btn btn_signup btn-primary">Sign up here</button>
-      
+        
       </div>
 
      

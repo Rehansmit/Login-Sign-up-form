@@ -25,7 +25,7 @@ h3{
     font-size: xx-large;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-#input_user{
+#input_user_sp{
     width: 300px;
     height: 60px;
     justify-content: center;
@@ -35,7 +35,7 @@ h3{
 
 }
 
-#input_Password{
+#input_Password_sp{
     width: 300px;
     height: 60px;
     justify-content: center;
@@ -48,7 +48,7 @@ h3{
 
 .main{
     width: 500px;
-    height: 400px;
+    height: 580px;
     border: 4px solid yellowgreen;
     border-radius: 25px;
 }
@@ -57,18 +57,31 @@ h3{
     height: 50px;
     width: 300px;
     padding: 5px;
-    margin-left: 100px;
+    margin-left: 150px;
     justify-content: center;
     text-align: center;
     border-radius: 10px;
 }
 
-.btn_signup{
-    height: 50px;
+#input_re-Password{
     width: 300px;
-    padding: 5px;
-    margin-left: 50px;
+    height: 60px;
     justify-content: center;
-    text-align: center;
+    margin-left: 35px;
+    border: 2px solid greenyellow;
     border-radius: 10px;
+    margin-top: 20px;
+      
+}
+
+#input_cell
+{
+    width: 300px;
+    height: 60px;
+    justify-content: center;
+    margin-left: 35px;
+    border: 2px solid greenyellow;
+    border-radius: 10px;
+    margin-top: 20px;
+      
 }
