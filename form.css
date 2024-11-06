@@ -2,29 +2,77 @@
     width: 100%;
     height: 100px;
     justify-content: center;
+    background-color: lightgray;
 }
 
 .social-icons{
 height: 30px;
 width: 30px;
 justify-content: space-between;
-margin-left: 20px;
+margin-left: 40px;
+margin-top: 0px;
 }
 
 .head-smit{
     justify-content: center;
     text-align: center;
     margin-left: 200px;
-    /* display: inline-block; */
-    padding: 20px;
-    width: 300px;
+    width: 400px;
+    
+   
 }
-.bt-st{
-    width: 250px;
-    height: 50px;
+
+.btn-st{
+    width: 150px;
+    height: 30px;
     justify-content: end;
     border: 2px solid blue;
     border-radius: 20px;
     margin-left: 300px;
     padding: 5px;
+    margin-top: 5px;
+    color: blue;
+    font-size: small;
+}
+
+.head-end{
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    width: 1000px;
+    height: 25px;
+    font-size: small;
+    color: grey;
+    background-color: lightgray;
+    margin-top: 25px;
+}
+
+
+.head-end2{
+    justify-content: center;
+    text-align: center;
+text-decoration: none;
+margin-left: 10px;
+
+}
+
+
+li{text-decoration: none;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    margin-left: 10px;
+
+}
+.reg{
+    color: yellowgreen;
+}
+
+#u_country{
+    width: 200px;
+    height: 50px;
+    border: 2px solid yellowgreen;
+    border-radius: 10px;
+    margin-top: ;
+
 }
