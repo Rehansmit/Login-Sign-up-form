@@ -1,0 +1,26 @@
+.img_head{
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+}
+
+.social-icons{
+height: 30px;
+width: 30px;
+justify-content: space-between;
+margin-left: 20px;
+}
+
+.smit-head{
+    justify-content: center;
+    text-align: center;
+    /* margin-left: 500px; */
+    display: inline;
+}
+.btn-stu{
+    width: 200px;
+    height: 50px;
+    justify-content: end;
+    border: 2px solid blue;
+    border-radius: 20px;
+}
