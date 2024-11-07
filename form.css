@@ -17,8 +17,10 @@ margin-top: 0px;
     justify-content: center;
     text-align: center;
     margin-left: 200px;
-    width: 400px;
-    
+    width: 500px;
+    display: inline-block;
+
+      
    
 }
 
@@ -77,37 +79,139 @@ li{text-decoration: none;
 
 
 #u_country{
-    width: 400px;
-    height: 50px;
+    width: 450px;
+    height: 60px;
     border: 2px solid yellowgreen;
     border-radius: 5px;
-    margin-left: 100px;
-    display: inline-block;
+    margin-left: 50px;
+    /* justify-content: space-evenly; */
 }
 
 .lable{
-    margin-left: 100px;
+    margin-left: 50px;
     color: blue;
     font-size: small;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
 }
 
-.city{
 
+.row-1{
+    justify-content: center; 
+    margin-left: 50px;
+
+ } 
+
+ #s_city{
+    width: 450px;
+    height: 60px;
+    border: 2px solid yellowgreen;
+    border-radius: 5px;
+    margin-left: 80px;
     display: inline-block;
 }
 
-.row-1{
-    justify-content: space-around;
-    margin-left: 50px;
-}
 
-#u_city{
-    width: 400px;
-    height: 50px;
+#u_course{
+    width: 450px;
+    height: 60px;
     border: 2px solid yellowgreen;
     border-radius: 5px;
     margin-left: 50px;
+    display: inline-block;
+}
+
+#c_profecy{
+    width: 450px;
+    height: 60px;
+    border: 2px solid yellowgreen;
+    border-radius: 5px;
+    margin-left: 80px;
+    display: inline-block;
+}
+
+.lable1{
+    margin-left: 100px;
+    color: blue;
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 50px;
+}
+.lable2{
+    margin-left: 100px;
+    color: blue;
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    /* display: inline-block; */
+    margin-left: 80px;
+
+}
+#f_name{
+    width: 450px;
+    height: 60px;
+    border: 2px solid yellowgreen;
+    border-radius: 5px;
+    margin-left: 50px;
+    display: inline;
+}
+
+.lable3{
+    margin-left: 100px;
+    color: blue;
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    
+}
+
+
+#father_name{
+    width: 450px;
+    height: 60px;
+    border: 2px solid yellowgreen;
+    border-radius: 5px;
+    margin-left: 80px;
+    display: inline-block;
+}
+
+.lable4{
+    margin-left: 50px;
+    color: blue;
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    
+}
+
+.lable5{
+    margin-left: 80px;
+    color: blue;
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    
+}
+
+
+
+#e_mail{
+    width: 450px;
+    height: 60px;
+    border: 2px solid yellowgreen;
+    border-radius: 5px;
+    margin-left: 50px;
+    display: inline;
+}
+
+
+#p_hone{
+    width: 450px;
+    height: 60px;
+    border: 2px solid yellowgreen;
+    border-radius: 5px;
+    margin-left: 80px;
     display: inline-block;
 }
