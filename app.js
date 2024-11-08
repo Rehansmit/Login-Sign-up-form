@@ -1,11 +1,16 @@
 
+// functin for sign up button
+
 function singupForm(){
     window.location.href = "signup.html";
     
 }
 
+
+// functin for sign up form
+
 function signupForm() {
-    var userName = document.getElementById("input_user_sp").value
+    var userName = document.getElementById("input_user_sp").value;
     var userPassword = document.getElementById("input_Password_sp").value;
     var userRePassword = document.getElementById("input_re-Password").value;
     var cellNo = document.getElementById("input_cell").value
@@ -36,6 +41,9 @@ function signupForm() {
 
 
 
+// functin for login button
+
+
 function loginForm() {
     
     var userName = document.getElementById("input_user").value;
@@ -44,7 +52,7 @@ function loginForm() {
     
     if (userName === "admin") {
         if(userPassword === "admin1")
-            {window.location.href = "form.html";}
+            {window.location.href = "regform.html";}
 
       else  {alert("please enter valid password")}
     }
