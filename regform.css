@@ -272,3 +272,52 @@ li{text-decoration: none;
     font-weight: bold;
     
 }
+
+#q_ualification{
+    width: 935px;
+    height: 60px;
+    border: 2px solid yellowgreen;
+    border-radius: 5px;
+    margin-left: 140px; 
+    display: inline-block;
+}
+
+
+#l_aptop{
+    width: 935px;
+    height: 60px;
+    border: 2px solid yellowgreen;
+    border-radius: 5px;
+    margin-left: 200px; 
+    display: inline-block;
+}
+
+.lable7{
+    margin-left: 200px;
+    color: blue;
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    
+}
+
+.lpara{
+    color:black;
+    font-size: 12px;
+    margin-left:200px ;
+    margin-top: 50px;
+    margin-right: 200px;
+    padding: 0px;
+}
+
+.btn-submit{
+    width: 935px;
+    height: 50px;
+    border: 2px solid ;
+    color: white;
+    background-color: rgb(94, 94, 173);
+    border-radius: 10px;
+    margin-left: 30px; 
+    display: inline-block;
+    margin-bottom: 50px;
+}
