@@ -45,13 +45,12 @@ function signupForm() {
 
 
 function loginForm() {
+
+    var userName = document.getElementById("input_user_sp").value;
+    var userPassword = document.getElementById("input_Password_sp").value;
     
-    var userName = document.getElementById("input_user").value;
-    var userPassword = document.getElementById("input_Password").value;
-    
-    
-    if (userName === "admin") {
-        if(userPassword === "admin1")
+    if (userName === document.getElementById("input_user")) {
+        if(userPassword === document.getElementById("input_Password"))
             {window.location.href = "regform.html";}
 
       else  {alert("please enter valid password")}
