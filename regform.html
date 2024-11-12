@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration Form</title>
     <link rel="stylesheet" href="bootsrip.css">
-    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="regform.css">
 </head>
 
 <body>
@@ -85,9 +85,9 @@
 
     <!-- head end -->
 
-    <!-- form start -->
+    <!-- form start for slect country and city -->
 
-    <div class="contanier form d-flex">
+    <div class="contanier form d-flex justify-content-center">
         <form class="d-flex">
 
         <div class="row mt-3 row-1">
@@ -114,7 +114,7 @@
               
             <div class="col-12 col-sm-12 mt_20 col-md-6 col-lg-5">
                 <div class="lable2">
-                    <p>Select Cit</p>
+                    <p>Select City</p>
                 </div>
                 <div class="slect">
                     <div class="st-1">
@@ -135,9 +135,9 @@
 
 
 
-<!-- 2nd row -->
+<!-- 2nd row for select course and computer profency  -->
  
-<div class="contaner d-flex">
+<div class="contaner d-flex justify-content-center">
 <div class="row row-2 mt-4 row-1">
 
         <div class="col-12 col-sm-12 mt_20 col-md-6 col-lg-5 ">
@@ -157,8 +157,7 @@
       </div>
     </div>
    
-   
-   
+     
     <div class="col-12 col-sm-12 mt_20 col-md-6 col-lg-5">
         <div class="lable2">
             <p>Select your computer proficiency</p>
@@ -179,10 +178,10 @@
 </div>
 </div>
 
-<!-- 3rd row -->
+<!-- 3rd row for full name and father name -->
 
 
-<div class="contaner d-flex ">
+<div class="contaner d-flex justify-content-center ">
     <div class="row row-3  mt-4 row-1">
     
             <div class="col-12 col-sm-12 mt_20 col-md-6 col-lg-5 ">
@@ -208,9 +207,11 @@
         </div>
     </div>
 </div>
-<!-- row 4 -->
 
-<div class="contaner d-flex ">
+
+<!-- row 4  for emil and phone number-->
+
+<div class="contaner d-flex justify-content-center ">
     <div class="row row-3  mt-4 row-1">
     
             <div class="col-12 col-sm-12 mt_20 col-md-6 col-lg-5 ">
@@ -238,29 +239,29 @@
 </div>
 
 
-<!-- row-5 -->
+<!-- row-5 for CNIC and Father CNIC-->
 
-<div class="contaner d-flex ">
+<div class="contaner d-flex justify-content-center">
     <div class="row row-3  mt-4 row-1">
     
             <div class="col-12 col-sm-12 mt_20 col-md-6 col-lg-5 ">
             <div class="lable4">
-                <p class=>Email</p>
+                <p class=>CNIC</p>
             </div>
             <div>
                 <div>
-                <input class='mail' type="email" id="e_mail" placeholder="mail">
+                <input class='cnic' type="number" id="c_nic" placeholder="CNIC NO">
                 </div>
           </div>
         </div>
 
         <div class="col-12 col-sm-12 mt_20 col-md-6 col-lg-5 ">
             <div class="lable5">
-                <p class=>Phone</p>
+                <p class=>Father CNIC (optinal)</p>
             </div>
             <div>
                 <div>
-                <input class='phone' type="number" id="p_hone" placeholder="Phone">
+                <input class='fcnic' type="number" id="f_cnic" placeholder="Father CNIC NO">
                 </div>
           </div>
         </div>
@@ -269,18 +270,132 @@
 
 
 
+<!-- row-6 for date of birth and gender  -->
+ 
+<div class="contaner d-flex justify-content-center">
+    <div class="row row-2 mt-4 row-1">
+    
+            <div class="col-12 col-sm-12 mt_20 col-md-6 col-lg-5 ">
+            <div class="lable1">
+                <p class=>Date of birth</p>
+            </div>
+            <div>
+                <div>
+                <input class='dob' type="datetime-local" id="d_ob">
+                </div>
+          </div>
+        </div>
+       
+         
+        <div class="col-12 col-sm-12 mt_20 col-md-6 col-lg-5">
+            <div class="lable2">
+                <p>Select gender</p>
+            </div>
+            <div>
+                <div>
+                <select  class="select-2 d-flex" name="gender" id="g_ender">
+                    <option value=""></option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                 </select>
+                </div>
+          </div>
+        </div>
+    </div>
+    </div>
+    
+
+
+
+<!-- row-7 for address  -->
+ 
+<div class="contaner d-flex justify-content-center">
+    <div class="row row-2 mt-4 row-1 d-flex justify-content-center">
+    
+            <div class="col-12 col-sm-12 mt_20 ">
+            <div class="lable6">
+                <p class=>Address</p>
+            </div>
+            <div>
+                <div>
+                <input class='dob' type="text" id="a_ddress">
+                </div>
+          </div>
+        </div>
+
+
+<!-- row-8 for qualification  -->
+ 
+<div class="col-12 col-sm-12 mt_20 mt-3 justify-content-center">
+    <div class="lable6">
+        <p>Last qualification</p>
+    </div>
+    <div>
+        <div>
+        <select  class="select-2 d-flex" name="qualification" id="q_ualification">
+            <option value=""></option>
+            <option value="mat">Matric</option>
+            <option value="int">Intermediate</option>
+            <option value="int">under graduate</option>
+            <option value="int">Graduate</option>
+            <option value="int">Master</option>
+            <option value="int">Phd</option>
+            <option value="int">other</option>
+         </select>
+        </div>
+  </div>
+</div>
+</div>
+</div>
+
+
+<!-- row-9 for do u have laptop  -->
+ 
+<div class="col-12 col-sm-12 mt_20 mt-5 d-flex justify-content-center">
+    <div class="lable7">
+        <p>Do you have a Laptop?</p>
+    </div>
+    <div>
+        <div>
+        <select  class="select-2 d-flex" name="laptop" id="l_aptop">
+            <option value=""></option>
+            <option value="mat">Yes</option>
+            <option value="int">No</option>
+            
+         </select>
+        </div>
+  </div>
+</div>
+</div>
+</div>
 
 
 
 
 
+<!-- row-10 for do u have laptop  -->
+ 
+<div class="col-12 col-sm-12 mt_20 mt-3 d-flex justify-content-center">
+<div class="lpara">
+<p>1.I hereby, solemnly declare that the data and facts mentioned herein are true and correct to the best of my knowledge. Further, I will abide by all the established and future regulations and policies of SWIT</p>
+<p>2.I hereby accept the responsibilities of good conduct and guarantee that I will not be involved in any other activity, political or ethical, but learning during my stay in the program.</p>
+<p>3.defiance will render my admission canceled at any point in time.</p>
+<p>4.Upon completion, of the course,  I will complete the required project by SWIT.</p>
+<p>5.It's mandatory for female students to wear abaya/hijab in the class</p>
+</div>
+</div>
 
 
+<!-- row-11 submit button  -->
+ 
+<div class="col-12 col-sm-12 mt_20 mt-3 d-flex justify-content-center">
+    <div class="lpara">
+        <button class="btn btn-primaray btn-submit"> SUBMIT</button>
+        </div>
+        <div class="gape">
 
-
-
-
-
+        </div>
+</div>
 
 
 
